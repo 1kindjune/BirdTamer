@@ -1,0 +1,16 @@
+<h3 align = "center">Sightings</h3>
+<div id = "birds-div">
+	<ul>
+	{{#each birdInfo}}
+		<li><span>{{this.num}}</span> x {{this.name}}</li>
+	{{/each}}
+	</ul>
+</div>
+<br>
+<form align = "center" action="" method="post">
+  <input type="text" class = "textbox" name="name" placeholder="B  i  r  d      N  a  m  e">
+  <p align = "center"><input type="submit" class = "css_button" value="Add Another Bird"></p>
+</form>
+
+
+<p align = "center"><a href="/settings" title="">(My Settings)</a> </p>
